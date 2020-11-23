@@ -1,13 +1,16 @@
 {
   "name": "@rayangou/ember-pacejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ember addon for pace",
   "keywords": [
     "ember-addon",
     "pace",
     "pace-progressbar"
   ],
-  "repository": "https://github.com/rayangou/ember-pacejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayangou/ember-pacejs.git"
+  },
   "license": "MIT",
   "directories": {
     "doc": "doc",
@@ -57,5 +60,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@rayangou"
   }
 }
